@@ -1,0 +1,39 @@
+/* body {
+    background-image: url(./assets/bg-mobile.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;  Cobre todo espaço visível 
+}  */
+
+body {
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+#container {
+    width: 360px;
+    border: 2px solid red;
+    margin: auto;
+    /* Centraliza a DIV horizontalmente */
+    /* Display block automático */
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 112px;
+    text-align: center;
+    /* display: block; */
+    /* Margin funciona apenas em block*/
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+}
