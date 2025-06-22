@@ -5,6 +5,13 @@
     background-size: cover;  Cobre todo espaço visível 
 }  */
 
+* {
+    /* Reset de CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
@@ -15,25 +22,25 @@ body * {
 }
 
 #container {
-    width: 360px;
-    border: 2px solid red;
-    margin: auto;
     /* Centraliza a DIV horizontalmente */
     /* Display block automático */
+    /* Margin: (cima baixo) (esquerda direita) (baixo) */
+    width: 360px;
+    border: 2px solid red;
+    margin: 56px auto 0px;
 }
 
 #profile {
     text-align: center;
+    padding: 24px;
 }
 
 #profile img {
     width: 112px;
-    text-align: center;
-    /* display: block; */
-    /* Margin funciona apenas em block*/
 }
 
 #profile p {
     font-weight: 500;
     line-height: 24px;
+    margin-top: 8px;
 }
