@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+    color: azure;
+}
+
+input {
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+}
