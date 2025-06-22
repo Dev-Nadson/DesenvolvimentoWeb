@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formmulário</title>
 </head>
 
@@ -11,8 +12,40 @@
     <h1>Formulários</h1>
     <form>
         <label for="nome">Nome: </label>
-        <input id="nome" placeholder="Insira Seu Nome">
+        <input id="nome" placeholder="Insira Seu Nome" type="text" required><br><br>
+
+        <label for="email">Email: </label>
+        <input id="email" placeholder="Insira Seu Email" type="email" required><br><br>
+
+        <label for="box">Senha: </label>
+        <input id="box" placeholder="Insira seu sexo" type="password"><br><br>
+
+        <p>Animal</p>
+        <input id="cachorro" type="radio" name="animal" value="cachorro">
+        <label for="cachorro">Cachorro</label><br>
+        <input id="porco" type="radio" name="animal" value="porco">
+        <label for="porco">Porco</label><br>
+        <input id="gato" type="radio" name="animal" value="gato">
+        <label for="gato">Gato</label><br><br>
+
+        <p>Eletrodoméstico</p>
+        <input id="geladeira" type="checkbox" name="Eletrodomestico" value="geladeira">
+        <label for="geladeira">geladeira</label><br>
+        <input id="tv" type="checkbox" name="Eletrodomestico" value="tv">
+        <label for="tv">tv</label><br>
+        <input id="monitor" type="checkbox" name="Eletrodomestico" value="monitor">
+        <label for="monitor">Gato</label><br><br>
+
+        <label for="genero">Infome seu Gênero</label>
+        <select name="pessoal" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <input type="submit" value="Enviar">
     </form>
+    <br>
+    <a href="Primeiro-Projeto.html"> Voltar a página inicial</a>
 </body>
 
 </html>
