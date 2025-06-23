@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url(./assets/bg-image.jpg);
+    background: url(./assets/bg-image.jpg) no-repeat top center/cover;
 }
 
 #page {
