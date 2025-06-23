@@ -22,6 +22,7 @@ body {
     background-color: var(--surface-color);
     border-radius: 24px;
     margin: 48px auto;
+    margin-bottom: 28px;
 }
 
 img {
@@ -57,7 +58,16 @@ ul {
     padding-left: 24px;
 }
 
-
 h2 {
     font-size: 24px;
+}
+
+footer {
+    color: var(--surface-color);
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer abbr {
+    text-decoration: none;
 }
