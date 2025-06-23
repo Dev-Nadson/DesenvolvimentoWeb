@@ -86,6 +86,12 @@ body * {
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+    left: 0;
+}
+
+.light #switch button {
+    right: 0;
+    left: initial;
 }
 
 #switch span {
