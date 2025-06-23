@@ -49,7 +49,8 @@ body * {
     /* Centraliza a DIV horizontalmente */
     /* Display block automático */
     /* Margin: (cima baixo) (esquerda direita) (baixo) */
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
