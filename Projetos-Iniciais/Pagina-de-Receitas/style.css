@@ -43,6 +43,8 @@ section+section {
 h1,
 h2 {
     color: var(--title-color);
+    margin-bottom: 4px;
+    line-height: 150%;
 }
 
 h1 {
@@ -50,6 +52,11 @@ h1 {
     font-size: 40px;
     margin-bottom: 4px;
 }
+
+ul {
+    padding-left: 24px;
+}
+
 
 h2 {
     font-size: 24px;
