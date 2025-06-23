@@ -1,5 +1,8 @@
 :root {
     --surface-color: #f0e8c2;
+    --title-color: #291b1a;
+    font-family: "Alice", serif;
+    color: #573a37;
 }
 
 body {
@@ -7,7 +10,6 @@ body {
 }
 
 #page {
-    width: 800px;
     max-width: 800px;
     padding: 24px;
     background-color: var(--surface-color);
@@ -15,6 +17,20 @@ body {
     margin: 48px auto;
 }
 
+h1,
+h2 {
+    color: var(--title-color);
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
 img {
-    text-align: center;
+    width: 100%;
 }
