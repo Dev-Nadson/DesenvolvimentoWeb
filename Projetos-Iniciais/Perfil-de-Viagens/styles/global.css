@@ -14,14 +14,39 @@
     --text-color-secundary: #6C6C6C;
 
     --font-family: "Inter", sans-serif;
-    --txt: 16px/150% var(--font-family);
+    --text: 16px/150% var(--font-family);
     --text-lg: bold 32px/125% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }
 
 body {
-    font: var(--text-lg);
+    font: var(--text);
     color: var(--text-color-secundary);
     background-color: var(--background-color);
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    /* Propriedade inline aplica apenas ao eixo X*/
+    padding-inline: 32px;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
 }
