@@ -59,4 +59,10 @@ main{
     border-radius: 4px;
     font: 500 10px/1.2 var(--font-family);
     text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-color-primary);
+}
+
+#main-card {
+    margin-bottom: 48px;
 }
