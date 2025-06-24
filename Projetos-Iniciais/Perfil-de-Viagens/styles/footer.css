@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    padding-block: 24px;
+    gap: 24px;
+    font: 14/150% var(--font-family);
+}
+
+#span-1 {
+    margin-right: auto;
+}

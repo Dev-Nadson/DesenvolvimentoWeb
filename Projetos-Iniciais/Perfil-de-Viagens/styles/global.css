@@ -47,6 +47,11 @@ a:hover {
     max-width: 1280px;
 }
 
+.container-nav {
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
 .bg-surface-color {
     background-color: var(--surface-color);
 }
