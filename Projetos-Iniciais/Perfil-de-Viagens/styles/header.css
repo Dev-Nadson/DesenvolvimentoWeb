@@ -1,0 +1,42 @@
+header {
+    padding-block: 32px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile-p {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#profile-box {
+    max-width: 384px;
+}
+
+#profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+#profile p {
+    font: var(--text-md);
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
