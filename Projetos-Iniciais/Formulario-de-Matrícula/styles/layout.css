@@ -27,6 +27,7 @@ main{
 main h1 {
     font: 600 1.5rem/1.25 var(--font-family);
 }
+
 aside {
     padding: 4rem;
     background-color: var(--surface-secundary);
