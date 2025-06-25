@@ -26,6 +26,59 @@
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
           </p>
+          <form action="#" method="post" enctype="multipart/form-data">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+
+              <div class="input-wrapper">
+                <label for="fullname">Nome completo</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Insira o nome da criança"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="">Data de Nascimento</label>
+                <input type="date" id="birth" name="birth" lang="pt-BR" />
+              </div>
+
+              <div class="select-wrapper">
+                <label for="gender">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="famale">Feminino</option>
+                  <option value="male">Masculino</option>
+                  <option value="na">Prefiro não responder</option>
+                </select>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações Médicas</label>
+                <textarea
+                  type="text"
+                  id="medical-info"
+                  name="medical-info"
+                  cols="30"
+                  rows="10"
+                  placeholder="A criança possúi alguma condição médica?"
+                ></textarea>
+              </div>
+
+              <div class="droparea-wrapper">
+                <input type="file" name="birth-file" id="birth-file" />
+                <img
+                  src="./assets/icons/cloud-upload.svg"
+                  alt="Nuvem de upload"
+                />
+                <p>
+                  Clique aqui para <br />
+                  selecionar os arquivos
+                </p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
 
