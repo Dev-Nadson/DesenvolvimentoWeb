@@ -1,6 +1,5 @@
-type Props = { //Tipagem com Typescript
+type Props = React.ComponentProps<"button"> & { //Tipagem com Typescript
     name: string
-    onClick?: () => void
 }
 
 export function Button(props: Props){ //Sempre com letra maiúscula, props é propriedade
