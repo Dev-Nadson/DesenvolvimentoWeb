@@ -1,0 +1,41 @@
+* {
+    border: red solid 1px;
+}
+
+.toolbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+#name {
+    margin-left: 2rem;
+}
+
+#menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 3rem;
+}
+
+#img {
+    border: blue solid 5px;
+    width: 25rem;
+    height: 35rem;
+    margin-left: 12rem;
+}
+
+#info {
+    border: rgb(0, 255, 42) solid 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 3rem;
+}
